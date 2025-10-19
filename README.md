@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# Kaiburr - Task 3: React WEB UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend web application built with React, TypeScript, and Ant Design. It provides a user-friendly interface to interact with the [Task 1 Backend API](https://github.com/your-username/kaiburr-task1-backend) (replace this link with your own).
 
-Currently, two official plugins are available:
+Users can view, search, create, and delete tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* View all tasks in a sortable and searchable table.
+* Create new tasks using a popup modal form.
+* Delete existing tasks with a confirmation click.
+* Search for tasks by name in real-time.
+* Responsive layout provided by Ant Design.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Tech Stack
 
-## Expanding the ESLint configuration
+* **React 19** (via Vite)
+* **TypeScript**
+* **Ant Design (antd)** for UI components (Table, Modal, Form, etc.)
+* **Axios** for making API calls to the backend.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Prerequisites
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1.  **Node.js** (v18+ recommended) and **npm** must be installed.
+2.  The **Task 1 Java Backend** must be running (e.g., at `http://localhost:8080`) and must have the `@CrossOrigin` annotation added.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## How to Run
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/kaiburr-task3-frontend.git](https://github.com/your-username/kaiburr-task3-frontend.git)
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2.  **Navigate into the project directory:**
+    ```bash
+    cd kaiburr-task3-frontend
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3.  **Install all required packages:**
+    ```bash
+    npm install
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Open your browser** and go to `http://localhost:5173/` (or the URL shown in your terminal).
+
+---
+
+## Screenshots
+
+*As per the requirements, all screenshots include my name (Joshith) and the current system date/time.*
+
+### 1. Main Dashboard & View All Tasks
+(This shows the main table with tasks loaded from the database)
+
+![Main Dashboard](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/main-dashboard-screenshot.png)
+
+### 2. Create New Task (Input)
+(This shows the "Create a New Task" popup modal)
+
+![Create Task Modal](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/create-task-screenshot.png)
+
+### 3. Search Task (Output)
+(This shows the table after performing a search)
+
+![Search Results](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/search-result-screenshot.png)
