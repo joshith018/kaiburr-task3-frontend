@@ -46,12 +46,12 @@ Users can view, search, create, and delete tasks.
     npm run dev
     ```
 
-5.  **Open your browser** and go to `http://localhost:5173/` (or the URL shown in your terminal).
+5.  **Open your browser** and go to `http://localhost:5174/` (or the URL shown in your terminal).
 
 ---
 
 ## Screenshots
-
+https://github.com/joshith018/kaiburr-task3-frontend/blob/main/Screenshot%202025-10-20%20011929.png
 *As per the requirements, all screenshots include my name (Joshith) and the current system date/time.*
 
 ### 1. Main Dashboard & View All Tasks
