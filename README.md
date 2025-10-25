@@ -51,7 +51,7 @@ Users can view, search, create, and delete tasks.
 ---
 
 ## Screenshots
-https://github.com/joshith018/kaiburr-task3-frontend/blob/main/Screenshot%202025-10-20%20011929.png
+![output](https://github.com/joshith018/kaiburr-task3-frontend/blob/main/Screenshot%202025-10-20%20011929.png)
 
 
 
