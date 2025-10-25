@@ -52,19 +52,7 @@ Users can view, search, create, and delete tasks.
 
 ## Screenshots
 https://github.com/joshith018/kaiburr-task3-frontend/blob/main/Screenshot%202025-10-20%20011929.png
-*As per the requirements, all screenshots include my name (Joshith) and the current system date/time.*
 
-### 1. Main Dashboard & View All Tasks
-(This shows the main table with tasks loaded from the database)
 
-![Main Dashboard](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/main-dashboard-screenshot.png)
 
-### 2. Create New Task (Input)
-(This shows the "Create a New Task" popup modal)
 
-![Create Task Modal](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/create-task-screenshot.png)
-
-### 3. Search Task (Output)
-(This shows the table after performing a search)
-
-![Search Results](https://github.com/your-username/kaiburr-task3-frontend/path/to/your/search-result-screenshot.png)
